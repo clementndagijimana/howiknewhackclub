@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #2d5016;
+    font-family: Georgia, serif;
+    color: white;
+    padding: 20px;
+}
+
+.weird-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.title {
+    font-size: 36px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #e8e8e8;
+    letter-spacing: 1px;
+}
+
+.image-section {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 40px 0;
+    flex-wrap: wrap;
+}
+
+.image-step {
+    text-align: center;
+    position: relative;
+}
+
+.image-step:first-child::after {
+    content: "→";
+    position: absolute;
+    right: -40px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 32px;
+    color: #8a9b6a;
+}
+
+.step-label {
+    font-size: 16px;
+    color: #e8e8e8;
+    margin-bottom: 12px;
+    font-style: italic;
+}
+
+.weird-img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border: 3px solid #8a9b6a;
+    border-radius: 50%;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+.img1 {
+    transform: none;
+}
+
+.img2 {
+    transform: none;
+}
+
+.text-section {
+    padding: 25px;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-left: 4px solid #8a9b6a;
+    border-radius: 3px;
+    margin-top: 40px;
+}
+
+.weird-text {
+    font-size: 18px;
+    margin: 10px 0;
+    color: white;
+    font-weight: normal;
+    text-transform: none;
+    letter-spacing: normal;
+    text-shadow: none;
+    line-height: 1.5;
+}
+
+.weird-text:nth-child(1) {
+    color: white;
+}
+
+.weird-text:nth-child(2) {
+    color: white;
+}
+
+.weird-text:nth-child(3) {
+    color: white;
+}
+
+.weird-text:nth-child(4) {
+    color: white;
+}
+
+
